@@ -24,8 +24,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        gem install sass
-        gem install compass
+        gem install --user-install sass
+        gem install --user-install compass
         npm install
 
     - name: Build package
