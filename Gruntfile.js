@@ -22,7 +22,7 @@ module.exports = function(grunt) {
         reporter: require('jshint-stylish'), // use jshint-stylish to make our errors look and read good
         reporterOutput: ''
       },
-      target: ['Gruntfile.js', '<%= js_src %>']
+      src: ['Gruntfile.js']
 //      src: ['Gruntfile.js', '<%= js_src %>']
     },
 
