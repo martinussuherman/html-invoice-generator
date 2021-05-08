@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": ">=1.3.0",
     "grunt-cloudfiles": "^0.3.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-compass": "^1.0.1",
